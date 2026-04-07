@@ -1,6 +1,6 @@
-# Familiar -- AI Co-Pilot for Foundry VTT
+# Familiar AI Co-Pilot for Foundry VTT
 
-Familiar is an AI-powered co-pilot module for Foundry VTT. It provides 185 tools across 24 domains, giving your AI assistant direct access to your game world -- characters, combat, scenes, journals, audio, and more.
+Familiar is an AI-powered co-pilot module for Foundry VTT. It provides 185 tools across 24 domains, giving your AI assistant direct access to your game world, characters, combat, scenes, journals, audio, and more.
 
 ## Quick Install
 
