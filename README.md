@@ -1,6 +1,6 @@
 # Familiar AI Co-Pilot for Foundry VTT
 
-Familiar is an AI-powered co-pilot module for Foundry VTT. It provides 185 tools across 24 domains, giving your AI assistant direct access to your game world, characters, combat, scenes, journals, audio, and more.
+Familiar is an AI-powered co-pilot module for Foundry VTT. It provides 193 tools across 24 domains, giving your AI assistant direct access to your game world, characters, combat, scenes, journals, audio, and more. It runs a published adventure you have imported; it does not invent the story.
 
 ## Quick Install
 
@@ -20,8 +20,8 @@ Click **Install**, then enable the module in your game world under **Manage Modu
 - Movement validation with speed enforcement and opportunity attack detection
 
 **AI Voices for NPCs**
-- Text-to-speech for any NPC using ElevenLabs, Cartesia, OpenAI TTS, or PlayHT
-- Assign persistent voices to characters -- the AI speaks in character during play
+- Text-to-speech for any NPC using ElevenLabs, Cartesia, or OpenAI TTS
+- Assign persistent voices to characters so the AI speaks in character during play
 
 **Battle Map Generation**
 - Generate battle maps and scene backgrounds using AI image providers
@@ -42,14 +42,14 @@ Click **Install**, then enable the module in your game world under **Manage Modu
 
 **Flexible AI Access**
 - Built-in chat window inside Foundry VTT with streaming responses
-- MCP server for use with external AI clients (Claude Desktop, Claude Code, ChatGPT, Cursor, and others)
-- Works with 26 AI providers -- from cloud APIs to fully local models
+- MCP server for use with external AI clients (Claude Desktop, Claude Code, Codex, Antigravity, Gemini CLI, and ChatGPT)
+- Works with 25 AI providers, from cloud APIs to fully local models
 
 ## Supported Providers
 
 **Chat**: OpenRouter, Anthropic, OpenAI, Google Gemini, Groq, Mistral, Together AI, DeepSeek, xAI, Cohere, Perplexity, Fireworks, Cerebras, SambaNova, LM Studio, Ollama
 
-**Voice**: ElevenLabs, Cartesia, OpenAI TTS, PlayHT
+**Voice**: ElevenLabs, Cartesia, OpenAI TTS
 
 **Image**: OpenAI GPT Image, fal.ai, Leonardo AI
 
@@ -67,9 +67,10 @@ This module is licensed under the [PolyForm Shield License 1.0.0](LICENSE).
 
 ## Support
 
+- **Website and licensing**: https://familiarvtt.com
 - **Bug reports and feature requests**: [GitHub Issues](https://github.com/Ryanjansen92/familiar-releases/issues)
 - **Foundry VTT compatibility issues**: please include your Foundry version, browser, and any console errors
 
 ---
 
-This is the releases repository. Source code is not included here. Each release contains the compiled module ready for installation in Foundry VTT.
+This is the releases repository for **Familiar**, the commercial AI co-pilot for Foundry VTT, published on npm as [`familiar-vtt`](https://www.npmjs.com/package/familiar-vtt). Source code is not included here; each release contains the compiled module ready for installation. Not affiliated with the unrelated `rayners/fvtt-foundry-familiar` module or the tabletop "familiar" creature.
