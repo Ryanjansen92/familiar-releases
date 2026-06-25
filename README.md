@@ -42,12 +42,12 @@ Click **Install**, then enable the module in your game world under **Manage Modu
 
 **Flexible AI Access**
 - Built-in chat window inside Foundry VTT with streaming responses
-- MCP server for use with external AI clients (Claude Desktop, Claude Code, Codex, Antigravity, Gemini CLI, and ChatGPT)
-- Works with 25 AI providers, from cloud APIs to fully local models
+- MCP server for use with external AI clients (Claude Desktop, Claude Code, Codex, Antigravity, LM Studio, and ChatGPT)
+- Works with 23 AI providers, from cloud APIs to local models over MCP
 
 ## Supported Providers
 
-**Chat**: OpenRouter, Anthropic, OpenAI, Google Gemini, Groq, Mistral, Together AI, DeepSeek, xAI, Cohere, Perplexity, Fireworks, Cerebras, SambaNova, LM Studio, Ollama
+**Chat**: OpenRouter, Anthropic, OpenAI, Google Gemini, Groq, Mistral, Together AI, DeepSeek, xAI, Cohere, Perplexity, Fireworks, Cerebras, SambaNova
 
 **Voice**: ElevenLabs, Cartesia, OpenAI TTS
 
