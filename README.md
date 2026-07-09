@@ -65,6 +65,10 @@ Click **Install**, then enable the module in your game world under **Manage Modu
 
 This module is licensed under the [PolyForm Shield License 1.0.0](LICENSE).
 
+Familiar is an independent product. It is not affiliated with, endorsed, sponsored, or approved by Wizards of the Coast LLC. Dungeons & Dragons and D&D are trademarks of Wizards of the Coast LLC.
+
+This work includes material from the System Reference Document 5.2.1 ("SRD 5.2.1") by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.
+
 ## Support
 
 - **Website and licensing**: https://familiarvtt.com
