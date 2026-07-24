@@ -20,7 +20,7 @@ Click **Install**, then enable the module in your game world under **Manage Modu
 - Movement validation with speed enforcement and opportunity attack detection
 
 **AI Voices for NPCs**
-- Text-to-speech for any NPC using ElevenLabs, Cartesia, or OpenAI TTS
+- Text-to-speech for any NPC using ElevenLabs, Cartesia, OpenAI TTS, OpenRouter TTS, or your own OpenAI-compatible TTS server
 - Assign persistent voices to characters so the AI speaks in character during play
 
 **Battle Map Generation**
@@ -33,7 +33,7 @@ Click **Install**, then enable the module in your game world under **Manage Modu
 
 **Image Generation**
 - Generate character portraits, item art, and scene imagery on demand
-- Providers: OpenAI GPT Image, fal.ai, Leonardo AI
+- Providers: OpenAI GPT Image, fal.ai, Leonardo AI, OpenRouter
 
 **World Management**
 - Create, read, update, and search actors, items, journals, playlists, macros, and more
@@ -42,16 +42,16 @@ Click **Install**, then enable the module in your game world under **Manage Modu
 
 **Flexible AI Access**
 - Built-in chat window inside Foundry VTT with streaming responses
-- MCP server for use with external AI clients (Claude Desktop, Claude Code, Codex, Antigravity, LM Studio, and ChatGPT)
-- Works with 23 AI providers, from cloud APIs to local models over MCP
+- MCP server for use with external AI clients (Claude Desktop, Claude Code, Codex CLI and Desktop, Antigravity CLI and Editor, LM Studio; ChatGPT connects through Codex)
+- Works with 28 AI providers, from cloud APIs to local models over MCP
 
 ## Supported Providers
 
-**Chat**: OpenRouter, Anthropic, OpenAI, Google Gemini, Groq, Mistral, Together AI, DeepSeek, xAI, Cohere, Perplexity, Fireworks, Cerebras, SambaNova
+**Chat**: OpenRouter, Anthropic, OpenAI, Google Gemini, Groq, Mistral, Together AI, DeepSeek, xAI, Cohere, Perplexity, Fireworks AI, Cerebras, SambaNova, NanoGPT, Custom (any OpenAI-compatible server)
 
-**Voice**: ElevenLabs, Cartesia, OpenAI TTS
+**Voice**: ElevenLabs, Cartesia, OpenAI TTS, OpenRouter TTS, Custom TTS (OpenAI-compatible)
 
-**Image**: OpenAI GPT Image, fal.ai, Leonardo AI
+**Image**: OpenAI GPT Image, fal.ai, Leonardo AI, OpenRouter
 
 **Transcription**: Gladia, Deepgram, AssemblyAI
 
