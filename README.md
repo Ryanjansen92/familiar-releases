@@ -14,10 +14,11 @@ Click **Install**, then enable the module in your game world under **Manage Modu
 
 ## Features
 
-**Combat Automation**
+**Combat Automation (D&D 5e)**
 - Resolve attacks, damage, saving throws, and spell effects with full rules enforcement
 - Track initiative, conditions, legendary actions, death saves, and concentration
 - Movement validation with speed enforcement and opportunity attack detection
+- Enforcement is a world setting and can be switched off for tables that rule their own way
 
 **AI Voices for NPCs**
 - Text-to-speech for any NPC using ElevenLabs, Cartesia, OpenAI TTS, OpenRouter TTS, or your own OpenAI-compatible TTS server
@@ -60,6 +61,7 @@ Click **Install**, then enable the module in your game world under **Manage Modu
 - Foundry VTT v13 or later (verified on v14)
 - An API key for at least one supported AI provider
 - A modern browser (Chrome, Firefox, Edge)
+- Game system: D&D 5e (2024) for the combat rules engine. Every other Foundry system gets the rest: story, NPCs, scenes, audio, voices, images, transcription, campaign memory, and character reads through your own system's sheet.
 
 ## License
 
