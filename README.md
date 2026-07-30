@@ -1,6 +1,6 @@
 # Familiar AI Co-Pilot for Foundry VTT
 
-Familiar is an AI-powered co-pilot module for Foundry VTT. It provides 194 tools across 24 domains, giving your AI assistant direct access to your game world, characters, combat, scenes, journals, audio, and more. It runs a published adventure you have imported; it does not invent the story.
+Familiar is an AI-powered co-pilot module for Foundry VTT. It provides 195 tools across 24 domains, giving your AI assistant direct access to your game world, characters, combat, scenes, journals, audio, and more. It runs a published adventure you have imported; it does not invent the story.
 
 ## Quick Install
 
@@ -43,8 +43,8 @@ Click **Install**, then enable the module in your game world under **Manage Modu
 
 **Flexible AI Access**
 - Built-in chat window inside Foundry VTT with streaming responses
-- MCP server for use with external AI clients (Claude Desktop, Claude Code, Codex CLI and Desktop, Antigravity CLI and Editor, LM Studio; ChatGPT connects through Codex)
-- Works with 28 AI providers, from cloud APIs to local models over MCP
+- MCP server for use with external AI clients (Claude Desktop, Claude Code, Codex CLI and Desktop, Antigravity CLI and Editor; ChatGPT connects through Codex)
+- Works with 28 AI providers, from cloud APIs to a local model running on your own machine
 
 ## Supported Providers
 
