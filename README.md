@@ -1,6 +1,6 @@
 # Familiar AI Co-Pilot for Foundry VTT
 
-Familiar is an AI-powered co-pilot module for Foundry VTT. It provides 207 tools across 25 domains, giving your AI assistant direct access to your game world, characters, combat, scenes, journals, audio, and more. It runs a published adventure you have imported; it does not invent the story.
+Familiar is an AI-powered co-pilot module for Foundry VTT. It provides 209 tools across 25 domains, giving your AI assistant direct access to your game world, characters, combat, scenes, journals, audio, and more. It runs a published adventure you have imported; it does not invent the story.
 
 ## Quick Install
 
@@ -21,11 +21,13 @@ Click **Install**, then enable the module in your game world under **Manage Modu
 - Enforcement is a world setting and can be switched off for tables that rule their own way
 
 **AI Voices for NPCs**
-- Text-to-speech for any NPC using ElevenLabs, Cartesia, OpenAI TTS, OpenRouter TTS, or your own OpenAI-compatible TTS server
+- Text-to-speech for any NPC using ElevenLabs, Cartesia, OpenAI TTS, OpenRouter TTS, NanoGPT TTS, or your own OpenAI-compatible TTS server
 - Assign persistent voices to characters so the AI speaks in character during play
 
 **Battle Map Generation**
 - Generate battle maps and scene backgrounds using AI image providers
+- Maps are requested at your scene grid's aspect ratio, so they land on the squares
+- Turn a generated map into a scene in one click, then have the AI wall and light it
 - Create and manage scenes, tokens, lighting, walls, and tiles programmatically
 
 **Live Session Transcription**
@@ -33,8 +35,9 @@ Click **Install**, then enable the module in your game world under **Manage Modu
 - Automatic session summaries and journal note creation
 
 **Image Generation**
-- Generate character portraits, item art, and scene imagery on demand
-- Providers: OpenAI GPT Image, fal.ai, Leonardo AI, OpenRouter
+- Generate character portraits, token art, item icons, and handouts on demand, applied straight to the actor or item
+- Every generated image files itself into a searchable in-world Art Library you can browse, search, and drag onto the canvas
+- Providers: OpenAI GPT Image, fal.ai, Leonardo AI, OpenRouter, NanoGPT
 
 **World Management**
 - Create, read, update, and search actors, items, journals, playlists, macros, and more
@@ -44,15 +47,15 @@ Click **Install**, then enable the module in your game world under **Manage Modu
 **Flexible AI Access**
 - Built-in chat window inside Foundry VTT with streaming responses
 - MCP server for use with external AI clients (Claude Desktop, Claude Code, Codex CLI and Desktop, Antigravity CLI and Editor; ChatGPT connects through Codex)
-- Works with 28 AI providers, from cloud APIs to a local model running on your own machine
+- Works with 30 AI providers, from cloud APIs to a local model running on your own machine
 
 ## Supported Providers
 
 **Chat**: OpenRouter, Anthropic, OpenAI, Google Gemini, Groq, Mistral, Together AI, DeepSeek, xAI, Cohere, Perplexity, Fireworks AI, Cerebras, SambaNova, NanoGPT, Custom (any OpenAI-compatible server)
 
-**Voice**: ElevenLabs, Cartesia, OpenAI TTS, OpenRouter TTS, Custom TTS (OpenAI-compatible)
+**Voice**: ElevenLabs, Cartesia, OpenAI TTS, OpenRouter TTS, NanoGPT TTS, Custom TTS (OpenAI-compatible)
 
-**Image**: OpenAI GPT Image, fal.ai, Leonardo AI, OpenRouter
+**Image**: OpenAI GPT Image, fal.ai, Leonardo AI, OpenRouter, NanoGPT
 
 **Transcription**: Gladia, Deepgram, AssemblyAI
 
