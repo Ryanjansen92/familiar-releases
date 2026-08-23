@@ -1,6 +1,6 @@
 # Familiar AI Co-Pilot for Foundry VTT
 
-Familiar is an AI-powered co-pilot module for Foundry VTT. It provides 209 tools across 25 domains, giving your AI assistant direct access to your game world, characters, combat, scenes, journals, audio, and more. It runs a published adventure you have imported; it does not invent the story.
+Familiar is an AI-powered co-pilot module for Foundry VTT. It provides 211 tools across 25 domains, giving your AI assistant direct access to your game world, characters, combat, scenes, journals, audio, and more. It runs a published adventure you have imported; it does not invent the story.
 
 ## Quick Install
 
@@ -16,6 +16,7 @@ Click **Install**, then enable the module in your game world under **Manage Modu
 
 **Combat Automation (D&D 5e)**
 - Resolve attacks, damage, saving throws, and spell effects with full rules enforcement
+- Class features fire as written: Rage, Action Surge, an Extra Attack budget, all ten Metamagic options, the eldritch invocations, and the SRD subclass features
 - Track initiative, conditions, legendary actions, death saves, and concentration
 - Movement validation with speed enforcement and opportunity attack detection
 - Enforcement is a world setting and can be switched off for tables that rule their own way
@@ -37,6 +38,7 @@ Click **Install**, then enable the module in your game world under **Manage Modu
 **Image Generation**
 - Generate character portraits, token art, item icons, and handouts on demand, applied straight to the actor or item
 - Every generated image files itself into a searchable in-world Art Library you can browse, search, and drag onto the canvas
+- Edit any image you already made from the image itself, or point at the part that should change (OpenAI, fal.ai, OpenRouter)
 - Providers: OpenAI GPT Image, fal.ai, Leonardo AI, OpenRouter, NanoGPT
 
 **World Management**
@@ -46,12 +48,13 @@ Click **Install**, then enable the module in your game world under **Manage Modu
 
 **Flexible AI Access**
 - Built-in chat window inside Foundry VTT with streaming responses
-- MCP server for use with external AI clients (Claude Desktop, Claude Code, Codex CLI and Desktop, Antigravity CLI and Editor; ChatGPT connects through Codex)
+- MCP server for use with external AI clients (Claude Desktop, Claude Code, Codex CLI, the ChatGPT desktop app's Codex tab, Antigravity CLI and Editor)
+- Table Chat: players talk to Familiar or to an NPC you handed it from the ordinary Foundry chat, under your approval mode. Name one player as the Solo Player and Familiar runs the table as their GM
 - Works with 30 AI providers, from cloud APIs to a local model running on your own machine
 
 ## Supported Providers
 
-**Chat**: OpenRouter, Anthropic, OpenAI, Google Gemini, Groq, Mistral, Together AI, DeepSeek, xAI, Cohere, Perplexity, Fireworks AI, Cerebras, SambaNova, NanoGPT, Custom (any OpenAI-compatible server)
+**Chat**: OpenRouter, Anthropic, OpenAI, Google, Groq, Mistral, Together AI, DeepSeek, xAI, Cohere, Perplexity, Fireworks AI, Cerebras, SambaNova, NanoGPT, Local / custom server (any OpenAI-compatible server)
 
 **Voice**: ElevenLabs, Cartesia, OpenAI TTS, OpenRouter TTS, NanoGPT TTS, Custom TTS (OpenAI-compatible)
 
@@ -64,7 +67,9 @@ Click **Install**, then enable the module in your game world under **Manage Modu
 - Foundry VTT v13 or later (verified on v14)
 - An API key for at least one supported AI provider
 - A modern browser (Chrome, Firefox, Edge)
-- Game system: D&D 5e (2024) for the combat rules engine. Every other Foundry system gets the rest: story, NPCs, scenes, audio, voices, images, transcription, campaign memory, and character reads through your own system's sheet.
+- Node.js 20 or later, for the MCP path only. The built-in chat needs nothing but Foundry
+- A Familiar subscription: $5 a month or $45 a year. The first two weeks are free, every feature unlocked. Subscribe at https://familiarvtt.com
+- Game system: D&D 5e (2024) for the combat rules engine. Every other Foundry system gets the rest: story, NPCs, scenes, audio, voices, images, transcription, campaign memory, and character reads through your own system's sheet. Verified live on Pathfinder 2e and Dragonbane.
 
 ## License
 
@@ -77,7 +82,7 @@ This work includes material from the System Reference Document 5.2.1 ("SRD 5.2.1
 ## Support
 
 - **Website and licensing**: https://familiarvtt.com
-- **Bug reports and feature requests**: [GitHub Issues](https://github.com/Ryanjansen92/familiar-releases/issues)
+- **Bug reports and feature requests**: the [Discord](https://familiarvtt.com/discord) is the fastest route; every error in the chat carries a **Copy diagnostics** button that puts a redacted report on your clipboard. [GitHub Issues](https://github.com/Ryanjansen92/familiar-releases/issues) works too
 - **Foundry VTT compatibility issues**: please include your Foundry version, browser, and any console errors
 
 ---
