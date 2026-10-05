@@ -8,7 +8,7 @@
 
 # Familiar AI Co-Pilot for Foundry VTT
 
-Familiar is an AI-powered co-pilot module for Foundry VTT. It provides 220 tools across 25 domains, giving your AI assistant direct access to your game world, characters, combat, scenes, journals, audio, and more. It runs a published adventure you have imported; it does not invent the story.
+Familiar is an AI-powered co-pilot module for Foundry VTT. It provides 230 tools across 26 domains, giving your AI assistant direct access to your game world, characters, combat, scenes, journals, audio, and more. It runs a published adventure you have imported; it does not invent the story.
 
 ## Quick Install
 
@@ -19,6 +19,12 @@ https://github.com/Ryanjansen92/familiar-releases/releases/latest/download/modul
 ```
 
 Click **Install**, then enable the module in your game world under **Manage Modules**.
+
+**Beta channel** (optional): the next release ahead of time, for checking a reported fix. Same dialog, this manifest URL, then Foundry's Update button keeps you on the newest beta until the stable release overtakes it. Back up your world first; MCP clients run `npx -y familiar-vtt@beta`.
+
+```
+https://github.com/Ryanjansen92/familiar-releases/releases/download/beta/module.json
+```
 
 ## Features
 
@@ -32,14 +38,15 @@ Click **Install**, then enable the module in your game world under **Manage Modu
 **AI Voices and Sound for NPCs**
 - Text-to-speech for any NPC through any of the voice providers listed below, including your own OpenAI-compatible TTS server
 - Assign persistent voices to characters, or let Familiar cast one from the provider's catalogue, so the AI speaks in character during play
-- Short sound effects from your own playlists first, generated only when nothing matches; ambience moods switch across your playlists as the scene changes
-- Voice and sound play for the whole table by default, each spoken line marked AI Voice in the chat. Familiar settings, Voice tab, turns either off
+- Short sound effects from your own playlists first, generated when nothing matches; ambience moods switch across your playlists as the scene changes
+- Voice and sound play for the whole table by default, and each spoken line also lands in the chat under the speaker's name. Familiar settings, Voice tab, turns either broadcast off; music and filed tracks still play to everyone through Foundry's playlists
+- Ask for a piece of music and Familiar composes an instrumental track on your ElevenLabs, fal.ai, NanoGPT, or OpenRouter key and files it in a playlist, without starting it
 
 **Battle Map Generation**
 - Generate battle maps and scene backgrounds using AI image providers
 - Maps are requested at your scene grid's aspect ratio, so they land on the squares
 - Turn a generated map into a scene in one click, then have the AI wall and light it
-- Create and manage scenes, tokens, lighting, walls, and tiles programmatically
+- Ask for scenes, tokens, lighting, walls, and tiles in plain words, and Familiar builds and changes them in your world
 
 **Live Session Transcription**
 - Real-time speech-to-text transcription of your game session
@@ -47,20 +54,22 @@ Click **Install**, then enable the module in your game world under **Manage Modu
 
 **Image Generation**
 - Generate character portraits, token art, item icons, and handouts on demand, applied straight to the actor or item
-- Every generated image files itself into a searchable in-world Art Library you can browse, search, and drag onto the canvas
+- Familiar turns a still into a short looping clip on your fal.ai key: lay it over the scene as a moving map, or show it to your players
+- Every image, clip, and music track Familiar makes files itself into Familiar Studio, a searchable in-world window. Browse, filter, and sort it, drag art onto the canvas, or type a prompt under the grid to make something new
 - Edit any image you already made from the image itself, or point at the part that should change (OpenAI, fal.ai, OpenRouter)
-- Providers: OpenAI (GPT Image), fal.ai, Leonardo AI, OpenRouter, NanoGPT
+- Providers: OpenAI (GPT Image), fal.ai, Leonardo AI, OpenRouter, NanoGPT, Custom (OpenAI-compatible)
 
 **World Management**
 - Create, read, update, and search actors, items, journals, playlists, macros, and more
-- Bulk operations with batch support across all domains
-- Canvas control: drawings, measured templates, weather, lighting, fog of war
+- File many documents into a folder at once, in the sidebar or inside a compendium pack
+- Move items between character sheets, and on D&D 5e move coin too: Familiar makes change and can check the price first
+- Canvas control: drawings, weather, lighting, fog of war
 
 **Flexible AI Access**
 - Built-in chat window inside Foundry VTT with streaming responses
-- MCP server for use with external AI clients (Claude Desktop, Claude Code, Codex CLI, the ChatGPT desktop app's Codex tab, Antigravity CLI and Editor, Grok Build CLI)
-- Table Chat: on by default. Players talk to Familiar or to any NPC from the ordinary Foundry chat, under your approval mode, and Familiar posts a one-line how-to when the world loads. Name one player as the Solo Player and Familiar runs the table as their GM
-- Works with 30 AI providers, from cloud APIs to a local model running on your own machine
+- MCP server for use with external AI clients (Claude Desktop, Claude Code, Codex CLI, the ChatGPT desktop app's Codex tab, Antigravity CLI and Editor, Grok Build CLI, Muse Code)
+- Table Chat: on by default. Players talk to Familiar or to any NPC from the ordinary Foundry chat, under your approval mode, and Familiar posts a short how-to when the world loads. Name one player as the Solo Player and Familiar runs the table as their GM
+- Works with 31 AI providers, from cloud APIs to a local model running on your own machine
 
 ## Supported Providers
 
@@ -68,7 +77,7 @@ Click **Install**, then enable the module in your game world under **Manage Modu
 
 **Voice**: ElevenLabs, Cartesia, OpenAI TTS, OpenRouter TTS, NanoGPT TTS, Custom TTS
 
-**Image**: OpenAI (GPT Image), fal.ai, Leonardo AI, OpenRouter, NanoGPT
+**Image**: OpenAI (GPT Image), fal.ai, Leonardo AI, OpenRouter, NanoGPT, Custom (OpenAI-compatible)
 
 **Transcription**: Gladia, Deepgram, AssemblyAI
 
@@ -77,9 +86,9 @@ Click **Install**, then enable the module in your game world under **Manage Modu
 - Foundry VTT v13 or later (verified on v14)
 - An API key for at least one supported AI provider
 - A modern browser (Chrome, Firefox, Edge)
-- Node.js 20 or later, for the MCP path only. The built-in chat needs nothing but Foundry
-- A Familiar subscription: $6 a month or $48 a year. The first two weeks are free, every feature unlocked. Subscribe at https://familiarvtt.com
-- Game system: D&D 5e (2024) for the combat rules engine. Every other Foundry system gets the rest: story, NPCs, scenes, audio, voices, images, transcription, campaign memory, and character reads through your own system's sheet. Verified live on Pathfinder 2e, Dragonbane, and Troika.
+- Node.js 22 or later, for the MCP path only. The built-in chat needs nothing but Foundry
+- A Familiar license: $6 a month or $48 a year, or $99 once. The first two weeks of a subscription are free, every feature unlocked. Subscribe at https://familiarvtt.com
+- Game system: D&D 5e (2024) for the combat rules engine. Every other Foundry system gets the rest: story, NPCs, scenes, audio, music, voices, images, video clips, transcription, campaign memory, and character reads through your own system's sheet. Verified live on Pathfinder 2e, Dragonbane, and Troika.
 
 ## License
 
