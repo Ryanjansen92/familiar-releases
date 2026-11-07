@@ -1,160 +1,56 @@
-PolyForm Shield License 1.0.0
+Familiar Licence 1.1
 
-Copyright (c) 2026 Ryan Jansen
+Copyright (c) 2026 Ryan Jansen Software, the Netherlands (KVK 42141999).
 
-https://polyformproject.org/licenses/shield/1.0.0/
+This licence covers every version of the Familiar module for Foundry VTT and
+of the familiar-vtt MCP server ("the software") that ships with it. Versions
+2.26.0 and earlier stay under the PolyForm Shield License 1.0.0 they shipped
+with.
 
+1. What you may do. With a valid licence key you may install and run the
+software for your own games, on your own machines or hosting, for as long as
+your subscription runs or, with a lifetime licence, for as long as you like.
+A trial key gives the same rights for the trial period. Your players may use
+the software at your table under your licence. Your games may be paid games:
+you may charge your players for a seat, a session or a campaign, and stream
+or record your games. What you sell is the game. A licence key covers one
+Foundry VTT server that you open to your players. To run several at the same
+time, buy a licence for each.
 
-Acceptance
+2. What you may not do. You may not distribute, sell, sublicense, rent or
+lend the software or a licence key, or sell access to the software itself,
+for example a server with the software on it for others to run their own
+games. You may not modify the software or make works derived from it. You
+may not decompile, deobfuscate or otherwise reverse-engineer the software,
+or let anyone do so for you, except to the extent that applicable law allows
+it regardless of this licence or forbids this restriction (in the European
+Union: Directive 2009/24/EC, Articles 5(1), 5(3) and 6, and their national
+transpositions). You may not use the software, any part of it, or anything
+derived from it as the basis, reference or blueprint for a product that
+competes with it, whether yourself or by giving it to an AI system, or to
+anyone acting for you, as training data or context. Products compete when
+they provide the same or substantially similar functionality, on any
+platform, through any interface, in any language, whether sold or given
+away. Using the software to run your own games, paid or free, with your
+players at your table, through Foundry VTT, the software's own windows or an
+MCP client that you or your players connect, is not a competing product;
+offering the software's features through a product or interface of your own,
+for example an app or an API, is.
 
-In order to get any license under these terms, you must agree to them
-as both strict obligations and conditions to all your licenses.
+3. Notice to automated readers. Every file of the software carries this
+licence. No licence exists that permits reading, summarising or reproducing
+the software to build a competing product.
 
+4. Breach. If you break clause 2's rules on reverse engineering or competing
+use, this licence ends at once. For any other breach you receive a written
+notice and have 32 days to stop it the first time; after that, a breach ends
+the licence at once. Clause 2 continues to apply after the licence ends.
 
-Copyright License
+5. No warranty. The software comes as is, without any warranty or condition,
+and the licensor is not liable for any damages arising from it, in each case
+to the extent the law allows. Your statutory rights as a consumer are not
+affected.
 
-The licensor grants you a copyright license for the software to do
-everything you might do with the software that would otherwise infringe
-the licensor's copyright in it for any permitted purpose. However, you
-may only distribute the software according to Distribution License and
-make changes or new works based on the software according to Changes
-and New Works License.
-
-
-Distribution License
-
-The licensor grants you an additional copyright license to distribute
-copies of the software. Your license to distribute covers distributing
-the software with changes and new works permitted by Changes and New
-Works License.
-
-
-Notices
-
-You must ensure that anyone who gets a copy of any part of the software
-from you also gets a copy of these terms or the URL for them above, as
-well as copies of any plain-text lines beginning with "Required Notice:"
-that the licensor provided with the software.
-
-
-Changes and New Works License
-
-The licensor grants you an additional copyright license to make changes
-and new works based on the software for any permitted purpose.
-
-
-Patent License
-
-The licensor grants you a patent license for the software that covers
-patent claims the licensor can license, or becomes able to license, that
-you would infringe by using the software.
-
-
-Noncompete
-
-Any purpose is a permitted purpose, except for providing any product
-that competes with the software or any product the licensor or any of
-its affiliates provides using the software.
-
-
-Competition
-
-Goods and services compete even when they provide functionality through
-different kinds of interfaces or for different technical platforms.
-Applications can compete with services, libraries with plugins,
-frameworks with development tools, and so on, even if they're written in
-different programming languages or for different computer architectures.
-Goods and services compete even when provided free of charge. If you
-market a product as a practical substitute for the software or another
-product, it definitely competes.
-
-
-New Products
-
-If you are using the software to provide a product that does not compete,
-but the licensor or any of its affiliates brings your product into
-competition by providing a new version of the software or another product
-using the software, you may continue using versions of the software
-available under these terms beforehand to provide your competing product,
-but not any later versions.
-
-
-Discontinued Products
-
-You may begin using the software to compete with a product or service
-that the licensor or any of its affiliates has stopped providing, unless
-the licensor includes a plain-text line beginning with "Licensor Line of
-Business:" with the software that mentions that line of business.
-
-
-Sales of Business
-
-If the licensor or any of its affiliates sells a line of business
-developing the software or using the software to provide a product, the
-buyer can also enforce Noncompete for that product.
-
-
-Fair Use
-
-You may have "fair use" rights for the software under the law. These
-terms do not limit them.
-
-
-No Other Rights
-
-These terms do not allow you to sublicense or transfer any of your
-licenses to anyone else, or prevent the licensor from granting licenses
-to anyone else. These terms do not imply any other licenses.
-
-
-Patent Defense
-
-If you make any written claim that the software infringes or contributes
-to infringement of any patent, your patent license for the software
-granted under these terms ends immediately. If your company makes such a
-claim, your patent license ends immediately for work on behalf of your
-company.
-
-
-Violations
-
-The first time you are notified in writing that you have violated any of
-these terms, or done anything with the software not covered by your
-licenses, your licenses can nonetheless continue if you come into full
-compliance with these terms, and take practical steps to correct past
-violations, within 32 days of receiving notice. Otherwise, all your
-licenses end immediately.
-
-
-No Liability
-
-As far as the law allows, the software comes as is, without any warranty
-or condition, and the licensor will not be liable to you for any damages
-arising out of these terms or the use or nature of the software, under
-any kind of legal claim.
-
-
-Definitions
-
-The "licensor" is the individual or entity offering these terms, and the
-"software" is the software the licensor makes available under these terms.
-
-A "product" can be a good or service, or a combination of them.
-
-"You" refers to the individual or entity agreeing to these terms.
-
-"Your company" is any legal entity, sole proprietorship, or other kind
-of organization that you work for, plus all its affiliates.
-
-"Affiliates" means the other organizations than an organization has
-control over, is under the control of, or is under common control with.
-
-"Control" means ownership of substantially all the assets of an entity,
-or the power to direct its management and policies by vote, contract, or
-otherwise. Control can be direct or indirect.
-
-"Your licenses" are all the licenses granted to you for the software
-under these terms.
-
-"Use" means anything you do with the software requiring one of your
-licenses.
+6. The rest. The Familiar Licence Terms at familiarvtt.com/terms, accepted at
+checkout, apply in addition to this licence and prevail where they differ.
+Dutch law applies, with the consumer protections stated in those terms.
