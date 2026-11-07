@@ -8,7 +8,7 @@
 
 # Familiar AI Co-Pilot for Foundry VTT
 
-Familiar is an AI-powered co-pilot module for Foundry VTT. It provides 230 tools across 26 domains, giving your AI assistant direct access to your game world, characters, combat, scenes, journals, audio, and more. It runs a published adventure you have imported; it does not invent the story.
+Familiar is an AI-powered co-pilot module for Foundry VTT. It provides 237 tools across 27 domains, giving your AI assistant direct access to your game world, characters, combat, scenes, journals, audio, and more. It runs a published adventure you have imported; it does not invent the story.
 
 ## Quick Install
 
@@ -50,7 +50,7 @@ https://github.com/Ryanjansen92/familiar-releases/releases/download/beta/module.
 
 **Live Session Transcription**
 - Real-time speech-to-text transcription of your game session
-- Automatic session summaries and journal note creation
+- The transcript lands in a journal; switch on Session recap and Familiar adds a recap page when transcription stops
 
 **Image Generation**
 - Generate character portraits, token art, item icons, and handouts on demand, applied straight to the actor or item
@@ -61,6 +61,9 @@ https://github.com/Ryanjansen92/familiar-releases/releases/download/beta/module.
 
 **World Management**
 - Create, read, update, and search actors, items, journals, playlists, macros, and more
+- Familiar Studio builds a D&D 5e character from one sentence, like "a dwarf cleric": the system's own sheet, the spells, and a backstory. Level-ups, starting gear, and prepared spells each arrive as a card and land when you apply it
+- Hand Familiar your campaign notes and it writes them into journals laid out like a published adventure, then checks them for links that lead nowhere and names you never created. New journals stay GM-only until you show them
+- When the party walks into a room whose map pin opens a journal page, Familiar whispers you that room's read-aloud text
 - File many documents into a folder at once, in the sidebar or inside a compendium pack
 - Move items between character sheets, and on D&D 5e move coin too: Familiar makes change and can check the price first
 - Canvas control: drawings, weather, lighting, fog of war
@@ -68,7 +71,9 @@ https://github.com/Ryanjansen92/familiar-releases/releases/download/beta/module.
 **Flexible AI Access**
 - Built-in chat window inside Foundry VTT with streaming responses
 - MCP server for use with external AI clients (Claude Desktop, Claude Code, Codex CLI, the ChatGPT desktop app's Codex tab, Antigravity CLI and Editor, Grok Build CLI, Muse Code)
-- Table Chat: on by default. Players talk to Familiar or to any NPC from the ordinary Foundry chat, under your approval mode, and Familiar posts a short how-to when the world loads. Name one player as the Solo Player and Familiar runs the table as their GM
+- Table Chat: on by default. Players talk to Familiar or to any NPC from the ordinary Foundry chat, under your approval mode, and Familiar posts a short how-to when the world loads
+- Familiar for Players: on by default. Each player gets the Familiar button, the chat window, and the Studio in their own browser, on their own provider key, and changes only what Foundry already lets them change; from Foundry 14.352, and not on The Forge, an image, sound, or clip they make without Upload Files is saved by the GM's own Foundry tab into a folder of their own while the GM is in the game. A player can also connect their own AI app. One switch on the Chat tab, Familiar for Players, turns it off for the whole world
+- Play solo from your own GM login: say which character is yours, or type /solo Bramble, and Familiar runs the table around it
 - Works with 31 AI providers, from cloud APIs to a local model running on your own machine
 
 ## Supported Providers
@@ -92,11 +97,13 @@ https://github.com/Ryanjansen92/familiar-releases/releases/download/beta/module.
 
 ## License
 
-This module is licensed under the [PolyForm Shield License 1.0.0](LICENSE).
+This module is licensed under the Familiar Licence 1.1 ([LICENSE](LICENSE)). Versions 2.26.0 and earlier shipped under the PolyForm Shield License 1.0.0. The Familiar Licence Terms: https://familiarvtt.com/terms.
 
 Familiar is an independent product. It is not affiliated with, endorsed, sponsored, or approved by Wizards of the Coast LLC. Dungeons & Dragons and D&D are trademarks of Wizards of the Coast LLC.
 
 This work includes material from the System Reference Document 5.2.1 ("SRD 5.2.1") by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.
+
+The item, spell and feature icons on Familiar's cards are each document's own art: Foundry's core icons, the game system's files or your own uploads, read from your installation while you play and never copied into Familiar. The dnd5e system's Game-icons.net (https://game-icons.net/) and Noun Project art among them is licensed under CC BY 3.0 (see the system's `icons/LICENSE`).
 
 ## Support
 
